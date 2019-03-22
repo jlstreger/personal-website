@@ -1,0 +1,38 @@
+body{
+    padding:0;
+    margin:0;
+}
+#header{
+    background-color:floralwhite;
+    text-align:center;
+    height:100px;
+}
+.center{
+    display: block;
+    margin: 0 auto;
+}
+#links{
+    /*position:absolute;
+    top: 120px;
+    left: 0px;
+    background-color:yellow;
+    width: 100px;
+    */
+    float: left;
+    position: fixed;
+    width:15%;
+}
+#post{
+    /*
+    margin-left:105px;
+    margin-right:305px;
+    */
+    padding: 30px;
+    border-radius: 25px;
+    border: 2px solid blue;
+    position: relative;
+    left: 28%;
+   float: left;
+    width:75%;
+    
+}
