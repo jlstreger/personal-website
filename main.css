@@ -1,17 +1,15 @@
-#figure1{
-    float: left;
-    margin-right: 5px;
-}
-.clear{
-    clear:both;
-}
 body{
     padding:0;
     margin:0;
 }
 #header{
+    background-color:floralwhite;
     text-align:center;
     height:100px;
+}
+.center{
+    display: block;
+    margin: 0 auto;
 }
 #links{
     /*position:absolute;
@@ -20,27 +18,19 @@ body{
     background-color:yellow;
     width: 100px;
     */
-    float:left;
-    background-color:red;
-    width:10%;
-}
-#authorinfo{
-    /*position:absolute;
-    top: 120px;
-    right:0px;
-    width: 300px;
-    */
-
-    float:right;
-    background-color:aqua;
-    width: 20%;
+    float: left;
+    position: fixed;
+    background-color: floralwhite;
+    width:15%;
 }
 #content{
     /*
     margin-left:105px;
     margin-right:305px;
     */
+    position: relative;
+    left: 15%;
    float: left;
-    background-color:yellow;
-    width:70%;
+    width:80%;
+    
 }
