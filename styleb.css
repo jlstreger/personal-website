@@ -22,7 +22,7 @@ body{
     position: fixed;
     width:15%;
 }
-#post{
+.post{
     /*
     margin-left:105px;
     margin-right:305px;
@@ -31,8 +31,8 @@ body{
     border-radius: 25px;
     border: 2px solid blue;
     position: relative;
-    left: 28%;
+    left: 18%;
    float: left;
-    width:75%;
+    width: 800px;
     
 }
