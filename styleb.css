@@ -1,11 +1,27 @@
 body{
     padding:0;
     margin:0;
+    background-image:url(background-image2.jpg);
+    background-size:cover;
 }
 #header{
-    background-color:floralwhite;
+    background-color:#E8ACD6;
+    color: #5B2049;
+    border-radius: 5px;
+    border: 5px solid rgba(161,80,137,0.5);
     text-align:center;
     height:100px;
+}
+
+#header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+#header h1 {
+  position: relative;
+  top: 10px;
 }
 .center{
     display: block;
@@ -27,12 +43,12 @@ body{
     margin-left:105px;
     margin-right:305px;
     */
-    padding: 30px;
+    padding: 20px;
     border-radius: 25px;
-    border: 2px solid blue;
+    border: 10px solid rgb(161,80,137,0.4);
     position: relative;
     left: 18%;
-   float: left;
+    float: left;
     width: 800px;
-    
+
 }
