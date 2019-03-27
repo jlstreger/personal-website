@@ -44,11 +44,16 @@ body{
     margin-right:305px;
     */
     padding: 20px;
+    margin: 5px;
     border-radius: 25px;
     border: 10px solid rgb(161,80,137,0.4);
     position: relative;
-    left: 18%;
+    left: 14%;
     float: left;
     width: 800px;
 
+}
+
+.post h2{
+  color: #60104B;
 }
