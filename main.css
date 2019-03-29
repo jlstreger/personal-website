@@ -38,6 +38,9 @@ body{
     float: left;
     position: fixed;
     width:15%;
+    font-family: 'Cardo', serif;
+    font-size: 150%;
+    line-height: 30px;
 }
 #content{
     /*
@@ -48,5 +51,5 @@ body{
     left: 15%;
     float: left;
     width:80%;
-
+    font-family: 'Cardo', serif;
 }

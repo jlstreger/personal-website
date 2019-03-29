@@ -11,6 +11,7 @@ body{
     border: 5px solid rgba(161,80,137,0.5);
     text-align:center;
     height:100px;
+    font-family: 'Cardo', serif;
 }
 
 #header img {
@@ -37,6 +38,9 @@ body{
     float: left;
     position: fixed;
     width:15%;
+    font-family: 'Cardo', serif;;
+    font-size: 150%;
+    line-height: 30px;
 }
 .post{
     /*
@@ -46,11 +50,14 @@ body{
     padding: 20px;
     margin: 5px;
     border-radius: 25px;
-    border: 10px solid rgb(161,80,137,0.4);
+    border: 10px solid rgba(161,80,137,0.4);
     position: relative;
     left: 14%;
     float: left;
     width: 800px;
+    background-color: rgba(161,80,137,0.2);
+    font-family: 'Cardo', serif;
+    font-size: 125%;
 
 }
 
