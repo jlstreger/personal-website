@@ -7,57 +7,78 @@ body{
 #header{
     background-color:#E8ACD6;
     color: #5B2049;
-    border-radius: 5px;
     border: 5px solid rgba(161,80,137,0.5);
     text-align:center;
     height:100px;
     font-family: 'Cardo', serif;
+    font-size: .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
 }
 
 #header img {
-  float: left;
-  width: 100px;
-  height: 100px;
+  border: 1px solid #003333;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 80px;
+  height: 80px;
 }
 
-#header h1 {
-  position: relative;
-  top: 10px;
-}
 .center{
     display: block;
     margin: 0 auto;
 }
-#links{
+
+.navbar-nav{
     /*position:absolute;
     top: 120px;
     left: 0px;
     background-color:yellow;
     width: 100px;
-    */
+
     float: left;
     position: fixed;
-    width:15%;
-    font-family: 'Cardo', serif;;
+    width:15%;*/
+    font-family: 'Cardo', serif;
     font-size: 150%;
-    line-height: 30px;
+    display: flex;
+    justify-content:center;
+    /*line-height: 30px;*/
 }
+/*
+#links{
+    position: fixed;
+    font-family: 'Cardo', serif;
+    font-size: 1.5em;
+    width: 15%;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+*/
+.container{
+    /*float: right;*/
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 120px;
+}
+
 .post{
-    /*
-    margin-left:105px;
-    margin-right:305px;
-    */
     padding: 20px;
     margin: 5px;
     border-radius: 25px;
     border: 10px solid rgba(161,80,137,0.4);
-    position: relative;
-    left: 14%;
-    float: left;
-    width: 800px;
     background-color: rgba(161,80,137,0.2);
     font-family: 'Cardo', serif;
     font-size: 125%;
+    width: 800px;
 
 }
 

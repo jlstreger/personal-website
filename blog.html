@@ -2,165 +2,196 @@
 <html>
 <head>
 	<title>Jennifer Streger's Work</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="styleb.css" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
 
 </head>
 <body>
-    <div id="header">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		<div id="header">
 				<img src="blog-image.jpg" alt="studying" height=100px width=100px>
-        <h1>Jennifer Streger's Blog</h1>
-    </div>
-    <div id="links">
-			  <a href="index.html">Homepage</a><br />
-        <a href="about.html">About Me</a><br />
-        Learning Blog<br>
-        <a href="https://github.com/jlstreger" target="_blank">GitHub Profile</a>
-    </div>
-		<div class="post">
-			<h2>03/28/2019</h2>
-			<p>Today I learned about <em>flexbox</em> to position elements and <em>transitions/transformations</em> of elements. This was a fun lesson and I was able to create a couple of small projects to practice my new skills.</p>
-			<p> I also learned a bit about important things to think about as a developer.</p>
-			<h3>Critical Render Path</h3>
-			<p> Path that a website takes to display something to a user.
-					First, the HTML file is sent to the browser. Once it is read that a CSS file is needed, it must ask for the CSS file. Then, in the case of my personal webpage, there is a font file that is located at the Google API. This file must also be retrieved in order for the text to be displayed. It is important to think about this path when displaying a webpage.
-					One useful tool is CSS Minify which puts all of the CSS file in one line. This makes it so the file is smaller and is easier/faster to transfer.
-			</p>
-			<p> I also learned about responsive UI, and how to use the developer tools in google chrome to see how my website will be rendered in different environments like an iPad or iPhone.</p>
-			A very productive day with some fun robot friends! 
-		<div class="post">
-			<h2>03/26/2019</h2>
-			Today I learned about CSS properties that allowed me to enhance my website. The course I am taking is helpful for finding resources online that allow me to enhance my website more easily.
-			<a href="https://css-tricks.com/almanac/" target="_blank">This</a> website is useful for looking up different selectors and properties.
-			<a href="https://unsplash.com/" target="_blank">This</a> website allowed me to find the nice background images that are now on my webpage.
-			<a href="http://paletton.com/#uid=1540u0k8fP5kVf8g0qFqFg0w0aF" target="_blank">This</a> helped me to find nice color schemes for the borders and font colors on my webpage.
-			I am happy with my improvements, looking forward to adding more improvements tomorrow as I learn more properties in CSS.
+				<h1>Blog</h1>
+
 		</div>
-    <div class="post">
-        <h2>03/25/2019</h2>
-        Today I made quite a bit of progress learning about the History of the Web and HTML. I wanted to move through these modules quickly since I already have a basic understanding of these topice. But I definitely learned some new information that is great to know moving forward with web development! I really enjoyed the Computer Science Crash course where I learned more about how computers are connected and "speak" to each other to transmit files. I didn't know that files are generally broken into packets when they are transferred. I am glad I got a little more background on this since how fast a website is able to load is important in web development!
-        Here are my notes from the History of the Web:
-        <h3>WWW vs Internet</h3>
-        <p>
-            The internet existed before the world wide web. The internet connected different universities in order to share research, documents, and information. Once it started to grow, there was difficulty in sharing documents since each source had a different way of doing things. Each source essentially spoke a different language so it was difficult to communicate between sources.
-            That is why the world wide web was created. The world wide web is a common language that computers can speak. It is the agreed upon language and protocol for computers to share information.
-        </p>
-        <p>
-            Tim Berners Lee created the first browser, the first server, and the first website.
-        </p>
-        <h3>Crash Course: Computer Science</h3>
-        <p>
-            Today, I watched videos that began with an overview of how networks began and how they work. I saw the simple beginnings of the ethernet and how just a small number of computers were connected. These computers could send out information and the header would include the unique code to specify which other computer the data was meant for.
-        </p>
-        <p>
-            I saw how collision can become an issue and how exponential backoff helped to solve this issue. I also saw that switches were introduced in order to improve this issue.
-            Big transmissions are broken up into packets so that the network is not backed up (Packet Switching).
-        </p>
-        <p>
-            IP gets the packet to the right computer, but UDP gets the packet to the right program running on that computer. TCP is more advanced.
-        </p>
-        <p>
-            DNS is like a phone book and looks up the IP address for the contents of the website if given the general address that is typed into a browser by a user.
-        </p>
-        I went through all of the HTML modules in the course Zero to Mastery. I already had a good understanding of HTML, so this just served to remind me of what I already know. I also learned a bit about the improvements that have been made in HTML5, and I worked with creating a form. I have uploaded the html-practice repository onto github that shows the small project that I worked with to refresh my knowledge and get some practice with HTML.
-        Overall, a fun day of learning! I am looking forward to getting into CSS again tomorrow and helping to refine my knowldege.
-    </div>
-    <div class="post">
-        <h2>03/24/2019</h2>
-        Today I was only able to go through a couple of modules after traveling for work this weekend. But I didn't want to stop learning so I spend just a bit of time making a little progress.
-        <h3>Traceroute</h3>
-        In terminal: traceroute google.com <br>
-        This lists all the IP addresses for the computers (servers) that had to be accessed to get the IP address for google server that contains the documents to display the webpage.
-        <h3>DEVELOPER FUNDAMENTALS: I</h3>
-        Factors that affect how quickly a website will load and function:
-        <ul>
-            <li>how far away is the server</li>
-            <li>how many trips</li>
-            <li>size of the files</li>
-        </ul>
-        These are factors that you must think about when creating a web application. <br>
-        Finally, I watched a module that discussed what a full stack web developer does. I now understand that a front end developer works on creating the HTML, CSS, and Javascript that determines what the webpage looks like and how it functions. A back end developer works with the server and how files are transferred and stored. They also work with the database. I am looking forward to learning more about what this means in this course!
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link" href="index.html">Home </a>
+					<a class="nav-item nav-link" href="about.html">About Me</a>
+					<a class="nav-item nav-link active" href="blog.html">Learning Blog <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="https://github.com/jlstreger" target="_blank">GitHub Profile</a>
+				</div>
+			</div>
+		</nav>
+	    <!--<div id="links">
+				  <a href="index.html">Homepage</a>
+	        <a href="about.html">About Me</a>
+	        Learning Blog
+	        <a href="https://github.com/jlstreger" target="_blank">GitHub Profile</a>
+	    </div>*/-->
+			<div class="container">
+				<div class="post">
+					<h2>03/29/2019</h2>
+					<p> Today I learned about <em><strong>Bootstrap</em></strong>. This allowed me to add a more sophisticated navbar to my website!
+					<p> One important thing that I am realizing is that I need to start paying attention to the classes and ids that I can use in
+						more than one page. It would simplify my code and also improve how quickly my website can function if I only write the CSS code
+						for these specific types once. I need to go through and compress this since at this time, I have a lot of code copied into two locations.
+						This is a project for another day. Right now I am happy to have a webpage that is more user friendly, and will function better when the browser
+						changes size. It will also function better on different devices such as an iPhone or iPad. Hooray! </p>
+				</div>
+				<div class="post">
+					<h2>03/28/2019</h2>
+					<p>Today I learned about <em>flexbox</em> to position elements and <em>transitions/transformations</em> of elements. This was a fun lesson and I was able to create a couple of small projects to practice my new skills.</p>
+					<p> I also learned a bit about important things to think about as a developer.</p>
+					<h3>Critical Render Path</h3>
+					<p> Path that a website takes to display something to a user.
+							First, the HTML file is sent to the browser. Once it is read that a CSS file is needed, it must ask for the CSS file. Then, in the case of my personal webpage, there is a font file that is located at the Google API. This file must also be retrieved in order for the text to be displayed. It is important to think about this path when displaying a webpage.
+							One useful tool is CSS Minify which puts all of the CSS file in one line. This makes it so the file is smaller and is easier/faster to transfer.
+					</p>
+					<p> I also learned about responsive UI, and how to use the developer tools in google chrome to see how my website will be rendered in different environments like an iPad or iPhone.</p>
+					A very productive day with some fun robot friends!
+				</div>
+				<div class="post">
+					<h2>03/26/2019</h2>
+					Today I learned about CSS properties that allowed me to enhance my website. The course I am taking is helpful for finding resources online that allow me to enhance my website more easily.
+					<a href="https://css-tricks.com/almanac/" target="_blank">This</a> website is useful for looking up different selectors and properties.
+					<a href="https://unsplash.com/" target="_blank">This</a> website allowed me to find the nice background images that are now on my webpage.
+					<a href="http://paletton.com/#uid=1540u0k8fP5kVf8g0qFqFg0w0aF" target="_blank">This</a> helped me to find nice color schemes for the borders and font colors on my webpage.
+					I am happy with my improvements, looking forward to adding more improvements tomorrow as I learn more properties in CSS.
+				</div>
 
-    </div>
+		    <div class="post">
+		        <h2>03/25/2019</h2>
+		        Today I made quite a bit of progress learning about the History of the Web and HTML. I wanted to move through these modules quickly since I already have a basic understanding of these topice. But I definitely learned some new information that is great to know moving forward with web development! I really enjoyed the Computer Science Crash course where I learned more about how computers are connected and "speak" to each other to transmit files. I didn't know that files are generally broken into packets when they are transferred. I am glad I got a little more background on this since how fast a website is able to load is important in web development!
+		        Here are my notes from the History of the Web:
+		        <h3>WWW vs Internet</h3>
+		        <p>
+		            The internet existed before the world wide web. The internet connected different universities in order to share research, documents, and information. Once it started to grow, there was difficulty in sharing documents since each source had a different way of doing things. Each source essentially spoke a different language so it was difficult to communicate between sources.
+		            That is why the world wide web was created. The world wide web is a common language that computers can speak. It is the agreed upon language and protocol for computers to share information.
+		        </p>
+		        <p>
+		            Tim Berners Lee created the first browser, the first server, and the first website.
+		        </p>
+		        <h3>Crash Course: Computer Science</h3>
+		        <p>
+		            Today, I watched videos that began with an overview of how networks began and how they work. I saw the simple beginnings of the ethernet and how just a small number of computers were connected. These computers could send out information and the header would include the unique code to specify which other computer the data was meant for.
+		        </p>
+		        <p>
+		            I saw how collision can become an issue and how exponential backoff helped to solve this issue. I also saw that switches were introduced in order to improve this issue.
+		            Big transmissions are broken up into packets so that the network is not backed up (Packet Switching).
+		        </p>
+		        <p>
+		            IP gets the packet to the right computer, but UDP gets the packet to the right program running on that computer. TCP is more advanced.
+		        </p>
+		        <p>
+		            DNS is like a phone book and looks up the IP address for the contents of the website if given the general address that is typed into a browser by a user.
+		        </p>
+		        I went through all of the HTML modules in the course Zero to Mastery. I already had a good understanding of HTML, so this just served to remind me of what I already know. I also learned a bit about the improvements that have been made in HTML5, and I worked with creating a form. I have uploaded the html-practice repository onto github that shows the small project that I worked with to refresh my knowledge and get some practice with HTML.
+		        Overall, a fun day of learning! I am looking forward to getting into CSS again tomorrow and helping to refine my knowldege.
+		    </div>
+		    <div class="post">
+		        <h2>03/24/2019</h2>
+		        Today I was only able to go through a couple of modules after traveling for work this weekend. But I didn't want to stop learning so I spend just a bit of time making a little progress.
+		        <h3>Traceroute</h3>
+		        In terminal: traceroute google.com <br>
+		        This lists all the IP addresses for the computers (servers) that had to be accessed to get the IP address for google server that contains the documents to display the webpage.
+		        <h3>DEVELOPER FUNDAMENTALS: I</h3>
+		        Factors that affect how quickly a website will load and function:
+		        <ul>
+		            <li>how far away is the server</li>
+		            <li>how many trips</li>
+		            <li>size of the files</li>
+		        </ul>
+		        These are factors that you must think about when creating a web application. <br>
+		        Finally, I watched a module that discussed what a full stack web developer does. I now understand that a front end developer works on creating the HTML, CSS, and Javascript that determines what the webpage looks like and how it functions. A back end developer works with the server and how files are transferred and stored. They also work with the database. I am looking forward to learning more about what this means in this course!
 
-    <div class="post">
-        <h2>03/22/2019</h2>
-        Today I was able to learn a bit more about how the internet works through modules in the course I am currently enrolled in. It was exciting and enlightening. I found that summarizing what I learned after watching each module helps me to learn best! I have provided the notes of what I learned below:
-        <h3>Browsing the Internet</h3>
-        <p>
-            What actually happens when I type in an IP address:
-        </p>
-        <ul>
-            <li>
-                The browser sends off a request to the Internet Service Provider asking “who this is”. The ISP then sends off a request to the Domain Name Server which acts like a phone book and then sends the IP address for the website. This is sent back to the browser.
-            </li>
-            <li>
-                The browser then send off a request to the Google Servers that it now knows how to locate with the IP address asking for the HTML,CSS, and Javascript for the webpage. This is sent back to the browser.
-            </li>
-            <li>
-                The browser then interprets the contents of the HTML, CSS, and JavaScript files to display the website.
-            </li>
-        </ul>
-        <h3>Breaking Google</h3>
-        <p>
-            I learned how to access the developer tools at any webpage. Once I opened the developer tools where you can view the HTML for the webpage, I was able to change different attributes of the google webpage by making my own modifications to the HTML for the webpage.
-        </p>
-        <p>
-            A browser is just a piece of software that can receive files from servers and it knows how to read them so that we can view our webpage.
-        </p>
-        <h3>The Internet Backbone</h3>
-        <p>
-            Wow! This was such an interesting module. I didn’t realize how incredible and amazing the internet is! I mean I always knew it was cool that it connects the world but it was this magical mystery that I didn’t think too much into.
-        </p>
-        <p>
-            So this is what I learned: In order for your browser to contact the ISP and for the ISP to contact the DNS, some incredible connections occur. First, you get WiFi from your router. The router is then connected to the modem which sends off a signal to a tower that connects back to the location of the ISP through a cable. Wow an underground cable. But then the AMAZING part is that then the ISP is connected to the “internet backbone” through a cable.
-        </p>
-        <p>
-            This is the part that truly amazed me. The internet backbone then connects to locations across the world through wires. Some of these wires run under the sea! Ok, now I want to sing the little mermaid. But seriously that’s amazing!
-        </p>
-        <p>
-            I will never again complain of how slow the internet is. How does the information travel so fast. Wow.
-        </p>
-        <p>
-            Oh also: I saw that the internet really just connects a lot of computers that store information. How amazing is this to be a part of?! Ok I’m excited. I’m glad I looked into this mystery of how information travels.
-        </p>
-    </div>
-    <div class="post">
-        <h2>03/21/2019 -- First Post!!</h2>
-        <p>
-            It's my first blog post! I was going to call it a day before putting together my blog page, but then I thought what a waste that would be since it's always good to be able to look back and reflect on where you have been in the past. So I decided I needed to start today!
-        </p>
-        <p>
-            Today I have been able to spend a bit of time making some minor changes to my personal website. I would have liked to continue with the course that I started yesterday, but like I said on the homepage, there's never enough time in the day. I am currently extremely energized to learn! This new course that I have discovered makes me think I have a good path to learn the skills to get into web development. It's been an exciting journey thus far. <a href="https://medium.com/zerotomastery/learn-to-code-in-2019-get-hired-and-have-fun-along-the-way-d4197f96be27">This article</a> that I discovered yesterday really hit home for me and has made me more certain than ever about three things:
-        </p>
-        <ol>
-            <li>
-                I want to work in web development. It is such an exciting field that is growing at an amazing rate and directly affects the world around me each and every day. I want to learn about this and be a part of it!
-            </li>
-            <li>
-                I have an exciting road ahead of me and have found a course that will help me maximize my learning potential. (or I have the hope and belief that it will)
-            </li>
-            <li>
-                I have found a field that can both challenge me and be a lot of fun! How exciting is that?!
-            </li>
-        </ol>
-        <p>
-            I am definitely at a high point of excitement as I have begun this new course. This article was so inspirational for me that I even decided to share a bit of what I learned from it with my students at school today. We were reviewing Euler's method and they wanted to know "Why do we learn this." So I thought this is the perfect segway to talk about computer science. Woohoo! I am lucky to have bright kids and many who are interested in computer science so this was perfect.
-        </p>
-        <p>
-            I told them about how computers can't actually do calculus... Because in Calculus we like for functions to be continuous. But continuous functions have an infinite number of values on a given interval. Yikes! A computer can't handle infinite information. So the computer has to use approximations! And thus when we are approximating the value of our function and only have one value of the function and its derivative... our computer uses Euler's method to approximate other values of the function!
-        </p>
-        <p>
-            Ok this was more of a tangent but I was getting to one of my favorite quotes from the article: <br>
-            "One of my favourite books is titled So Good They Can’t Ignore You. In there, the author argues that passion is a myth. You shouldn’t go into the travel industry because you are “passionate” about travel. Most people find passion by struggling and working hard to master a skill. Once people start acknowledging your valuable skills, and you are able to feel respected for these skills, that’s when you develop passion for what you do."
-        </p>
-        <p>
-            This quote really struck me and I thought it was something important to keep in mind when learning. It's great when you see the excitement in what you are learning like I do right now. But it is also going to take a lot of work and struggle to learn these skills. I got to share this with my students today as I encouraged them to continue on in their learning so that they can develop their passions. I'm not certain that I agree 100% with the quote. It is quite striking. But there is a lot of truth to it that you must struggle and work hard to master a skill. This skill then turns into a valuable passion.
-        </p>
-        <p>
-            Maybe my thoughts aren't totally cohesive on this topic right now, but what I choose to take away is that I am ready to develop this passion for web development with hard work and commitment. Let's do this!
-        </p>
-        <img src="letsdothis.jpg" alt="LetsDoThis" class="center">
-    </div>
+		    </div>
 
-</body>
+		    <div class="post">
+		        <h2>03/22/2019</h2>
+		        Today I was able to learn a bit more about how the internet works through modules in the course I am currently enrolled in. It was exciting and enlightening. I found that summarizing what I learned after watching each module helps me to learn best! I have provided the notes of what I learned below:
+		        <h3>Browsing the Internet</h3>
+		        <p>
+		            What actually happens when I type in an IP address:
+		        </p>
+		        <ul>
+		            <li>
+		                The browser sends off a request to the Internet Service Provider asking “who this is”. The ISP then sends off a request to the Domain Name Server which acts like a phone book and then sends the IP address for the website. This is sent back to the browser.
+		            </li>
+		            <li>
+		                The browser then send off a request to the Google Servers that it now knows how to locate with the IP address asking for the HTML,CSS, and Javascript for the webpage. This is sent back to the browser.
+		            </li>
+		            <li>
+		                The browser then interprets the contents of the HTML, CSS, and JavaScript files to display the website.
+		            </li>
+		        </ul>
+		        <h3>Breaking Google</h3>
+		        <p>
+		            I learned how to access the developer tools at any webpage. Once I opened the developer tools where you can view the HTML for the webpage, I was able to change different attributes of the google webpage by making my own modifications to the HTML for the webpage.
+		        </p>
+		        <p>
+		            A browser is just a piece of software that can receive files from servers and it knows how to read them so that we can view our webpage.
+		        </p>
+		        <h3>The Internet Backbone</h3>
+		        <p>
+		            Wow! This was such an interesting module. I didn’t realize how incredible and amazing the internet is! I mean I always knew it was cool that it connects the world but it was this magical mystery that I didn’t think too much into.
+		        </p>
+		        <p>
+		            So this is what I learned: In order for your browser to contact the ISP and for the ISP to contact the DNS, some incredible connections occur. First, you get WiFi from your router. The router is then connected to the modem which sends off a signal to a tower that connects back to the location of the ISP through a cable. Wow an underground cable. But then the AMAZING part is that then the ISP is connected to the “internet backbone” through a cable.
+		        </p>
+		        <p>
+		            This is the part that truly amazed me. The internet backbone then connects to locations across the world through wires. Some of these wires run under the sea! Ok, now I want to sing the little mermaid. But seriously that’s amazing!
+		        </p>
+		        <p>
+		            I will never again complain of how slow the internet is. How does the information travel so fast. Wow.
+		        </p>
+		        <p>
+		            Oh also: I saw that the internet really just connects a lot of computers that store information. How amazing is this to be a part of?! Ok I’m excited. I’m glad I looked into this mystery of how information travels.
+		        </p>
+		    </div>
+		    <div class="post">
+		        <h2>03/21/2019 -- First Post!!</h2>
+		        <p>
+		            It's my first blog post! I was going to call it a day before putting together my blog page, but then I thought what a waste that would be since it's always good to be able to look back and reflect on where you have been in the past. So I decided I needed to start today!
+		        </p>
+		        <p>
+		            Today I have been able to spend a bit of time making some minor changes to my personal website. I would have liked to continue with the course that I started yesterday, but like I said on the homepage, there's never enough time in the day. I am currently extremely energized to learn! This new course that I have discovered makes me think I have a good path to learn the skills to get into web development. It's been an exciting journey thus far. <a href="https://medium.com/zerotomastery/learn-to-code-in-2019-get-hired-and-have-fun-along-the-way-d4197f96be27">This article</a> that I discovered yesterday really hit home for me and has made me more certain than ever about three things:
+		        </p>
+		        <ol>
+		            <li>
+		                I want to work in web development. It is such an exciting field that is growing at an amazing rate and directly affects the world around me each and every day. I want to learn about this and be a part of it!
+		            </li>
+		            <li>
+		                I have an exciting road ahead of me and have found a course that will help me maximize my learning potential. (or I have the hope and belief that it will)
+		            </li>
+		            <li>
+		                I have found a field that can both challenge me and be a lot of fun! How exciting is that?!
+		            </li>
+		        </ol>
+		        <p>
+		            I am definitely at a high point of excitement as I have begun this new course. This article was so inspirational for me that I even decided to share a bit of what I learned from it with my students at school today. We were reviewing Euler's method and they wanted to know "Why do we learn this." So I thought this is the perfect segway to talk about computer science. Woohoo! I am lucky to have bright kids and many who are interested in computer science so this was perfect.
+		        </p>
+		        <p>
+		            I told them about how computers can't actually do calculus... Because in Calculus we like for functions to be continuous. But continuous functions have an infinite number of values on a given interval. Yikes! A computer can't handle infinite information. So the computer has to use approximations! And thus when we are approximating the value of our function and only have one value of the function and its derivative... our computer uses Euler's method to approximate other values of the function!
+		        </p>
+		        <p>
+		            Ok this was more of a tangent but I was getting to one of my favorite quotes from the article: <br>
+		            "One of my favourite books is titled So Good They Can’t Ignore You. In there, the author argues that passion is a myth. You shouldn’t go into the travel industry because you are “passionate” about travel. Most people find passion by struggling and working hard to master a skill. Once people start acknowledging your valuable skills, and you are able to feel respected for these skills, that’s when you develop passion for what you do."
+		        </p>
+		        <p>
+		            This quote really struck me and I thought it was something important to keep in mind when learning. It's great when you see the excitement in what you are learning like I do right now. But it is also going to take a lot of work and struggle to learn these skills. I got to share this with my students today as I encouraged them to continue on in their learning so that they can develop their passions. I'm not certain that I agree 100% with the quote. It is quite striking. But there is a lot of truth to it that you must struggle and work hard to master a skill. This skill then turns into a valuable passion.
+		        </p>
+		        <p>
+		            Maybe my thoughts aren't totally cohesive on this topic right now, but what I choose to take away is that I am ready to develop this passion for web development with hard work and commitment. Let's do this!
+		        </p>
+		        <img src="letsdothis.jpg" alt="LetsDoThis" class="center">
+		    </div>
+			</div>
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		</body>
+</html>
