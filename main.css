@@ -28,36 +28,15 @@ body{
   height: 80px;
 }
 
-#header h1 {
-  /*position: relative;
-  top: 10px;*/
-}
-
 .center{
     display: block;
     margin: 0 auto;
 }
-.navbar-nav{
-    /*position:absolute;
-    top: 120px;
-    left: 0px;
-    background-color:yellow;
-    width: 100px;
-
-    float: left;
-    position: fixed;
-    width:15%;*/
+.navbar{
     font-family: 'Cardo', serif;
     font-size: 150%;
-    display: flex;
-    justify-content:center;
-    /*line-height: 30px;*/
 }
 #content{
-    /*
-    margin-left:105px;
-    margin-right:305px;
-    */
     position: relative;
     top: 120px;
     left: 10%;
